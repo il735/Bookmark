@@ -88,12 +88,15 @@ p{
   align-items: center;
 }
 
+.sitenav{
+  margin-right: 48px;
+}
+
 .sitenav-list{
   display: flex;
   align-items: center;
   list-style: none;
   padding: 0;
-  margin-right: 48px;
 }
 .sitenav-list-item{
   margin-right: 48px;
@@ -112,7 +115,7 @@ p{
   color: tomato;
 }
 
-.top-logo{
+.logo{
   margin-right: auto;
 }
 
@@ -620,6 +623,32 @@ p{
   background-color: #FFFFFF;
   color: tomato;
   border: 3px solid tomato;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  padding: 32px 165px;
+  background-color: #242A45;
+}
+
+.footer-logo{
+  margin-right: 63px;
+}
+
+.footer-nav{
+  margin-right: auto;
+}
+
+.footer-list-links{
+  color: white;
+}
+
+.social-networking{
+  display: flex;
+  align-items: center;
+  width: 88px;
+  justify-content: space-between;
 }
 
 
