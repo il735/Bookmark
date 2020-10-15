@@ -176,8 +176,8 @@
         <p>35,000+ ALREADY JOINED</p>
         <h3>Stay up-to-date with what we’re doing</h3>
 
-        <form class="contacting-form" action="https://echo.htmlacademy.ru" method="POST">
-          <input class="contacting" type="email" name="email" aria-label="Enter your email adress" placeholder="Enter your email adress" required>
+        <form class="contacting-form" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
+          <input class="contacting" type="email" name="email" aria-label="Enter your email adress" placeholder="Enter your email adress" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" required>
           <button class="contact-btn" type="submit">Contact Us</button>
         </form>
 
@@ -209,6 +209,7 @@
       <a href="https://facebook.com"><img src="img/facebook.svg" alt="facebook" width="24" height="24"></a>
       <a href="https://facebook.com"><img src="img/twitter.svg" alt="twitter" width="24" height="24"></a>
     </div>
+
   </footer>
 </body>
 </html>
